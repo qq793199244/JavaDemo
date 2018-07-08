@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN" "http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+    <package name="default" namespace="/" extends="struts-default">
+       
+       
+       <!-- 默认出错处理     -->
+       <default-action-ref name="index"></default-action-ref>
+       <action name="index">
+           <result>/error.jsp</result>
+       </action>
+    
+       <!-- 通配符   -->
+       <action name="helloworld_*" method="{1}" class="com.imooc.action.HelloWorldAction">
+           <result>/result.jsp</result>
+           <result name="add">/{1}.jsp</result>
+           <result name="update">/{1}.jsp</result>
+       </action>
+   
+       
+       <!-- 登录-->
+       <action name="LoginAction" method="login" class="com.imooc.action.LoginAction">
+           <result>/success.jsp</result>
+           <result name="input">/login.jsp</result>
+       </action>
+      
+        
+    </package>
+    
+    <!--  Struts2后缀 可以用*.html访问
+    <constant name="struts.action.extension" value="html"></constant>
+    -->
+    <constant name="struts.enable.DynamicMethodInvocation" value="false"></constant>
+
+</struts>

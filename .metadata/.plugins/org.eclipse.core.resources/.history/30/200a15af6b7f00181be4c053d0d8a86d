@@ -1,0 +1,27 @@
+package com.imooc.test;
+
+public class TryCatchTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	public int test() {
+		int divider=10;
+		int result = 100;
+		
+		try {
+			while(divider>-1){
+				divider--;
+				result = result+100/divider;
+			}
+			return result;
+		} catch (Exception e) {
+			e.printStackTrace();
+			System.out.println("抛出异常了！");
+			return -1;
+		}
+	}
+
+}

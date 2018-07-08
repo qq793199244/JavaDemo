@@ -1,0 +1,67 @@
+2018-06-11 08:13:15,401 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-quickstart/1.1/maven-archetype-quickstart-1.1.jar
+2018-06-11 08:13:15,693 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-quickstart/1.1/maven-archetype-quickstart-1.1.jar
+2018-06-11 08:13:15,970 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-quickstart/1.1/maven-archetype-quickstart-1.1.pom
+2018-06-11 08:13:16,249 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-quickstart/1.1/maven-archetype-quickstart-1.1.pom
+2018-06-11 08:14:01,205 [Worker-20] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' G:\java_test\hi\pom.xml
+2018-06-11 08:14:05,817 [Worker-20] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.imooc.hi:hi:0.0.1-SNAPSHOT @ G:\java_test\hi\pom.xml.
+2018-06-11 08:14:08,219 [Worker-20] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /hi/src/main/java
+2018-06-11 08:14:08,225 [Worker-20] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /hi/src/test/java
+2018-06-11 08:14:08,706 [Worker-20] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 7 sec
+2018-06-11 08:14:09,531 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-11 08:14:09,531 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory G:\java_test\hi\src\main\resources
+2018-06-11 08:14:09,535 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-11 08:14:09,535 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory G:\java_test\hi\src\test\resources
+2018-06-11 08:14:53,336 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2018-06-11 08:15:15,597 [Worker-22] INFO  o.e.m.i.launch.MavenLaunchDelegate - G:\java_test\hi
+2018-06-11 08:15:15,598 [Worker-22] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -s D:\maven\apache-maven-3.5.3-bin\apache-maven-3.5.3\conf\settings.xml compile
+2018-06-11 08:26:33,288 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-11 08:26:33,289 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory G:\java_test\hi\src\main\resources
+2018-06-11 08:26:33,290 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-11 08:26:33,291 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory G:\java_test\hi\src\test\resources
+2018-06-11 08:33:10,285 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-11 08:33:10,286 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory G:\java_test\hi\src\main\resources
+2018-06-11 08:33:10,290 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-11 08:33:10,291 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory G:\java_test\hi\src\test\resources
+2018-06-11 08:33:17,710 [main] INFO  o.e.m2e.actions.ExecutePomAction - Using existing launch configuration
+2018-06-11 08:33:17,841 [Worker-35] INFO  o.e.m.i.launch.MavenLaunchDelegate - G:\java_test\hi
+2018-06-11 08:33:17,841 [Worker-35] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -s D:\maven\apache-maven-3.5.3-bin\apache-maven-3.5.3\conf\settings.xml compile
+2018-06-11 08:39:36,052 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2018-06-11 08:39:53,180 [Worker-38] INFO  o.e.m.i.launch.MavenLaunchDelegate - G:\java_test\hi
+2018-06-11 08:39:53,181 [Worker-38] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -s D:\maven\apache-maven-3.5.3-bin\apache-maven-3.5.3\conf\settings.xml compile
+2018-06-11 08:40:12,930 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2018-06-11 08:40:19,597 [Worker-40] INFO  o.e.m.i.launch.MavenLaunchDelegate - G:\java_test\hi
+2018-06-11 08:40:19,597 [Worker-40] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -s D:\maven\apache-maven-3.5.3-bin\apache-maven-3.5.3\conf\settings.xml package
+2018-06-11 09:37:06,379 [Worker-65] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.imooc.hi:hi:0.0.1-SNAPSHOT @ G:\java_test\hi\pom.xml.
+2018-06-11 09:37:06,979 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-11 09:37:06,981 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory G:\java_test\hi\src\main\resources
+2018-06-11 09:37:06,985 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-11 09:37:06,987 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory G:\java_test\hi\src\test\resources
+2018-06-11 09:37:37,843 [Worker-61] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.imooc.hi:hi:0.0.1-SNAPSHOT @ G:\java_test\hi\pom.xml.
+2018-06-11 09:37:38,170 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-11 09:37:38,170 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory G:\java_test\hi\src\main\resources
+2018-06-11 09:37:38,175 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-11 09:37:38,175 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory G:\java_test\hi\src\test\resources
+2018-06-11 09:44:15,266 [Worker-63] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.imooc.hi:hi:0.0.1-SNAPSHOT @ G:\java_test\hi\pom.xml.
+2018-06-11 09:44:15,519 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-11 09:44:15,520 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory G:\java_test\hi\src\main\resources
+2018-06-11 09:44:15,522 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-11 09:44:15,530 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory G:\java_test\hi\src\test\resources
+2018-06-11 09:44:47,662 [Worker-63] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-source-plugin/2.4/maven-source-plugin-2.4.jar
+2018-06-11 09:44:48,172 [Worker-63] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-source-plugin/2.4/maven-source-plugin-2.4.jar
+2018-06-11 09:44:49,000 [Worker-63] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.imooc.hi:hi:0.0.1-SNAPSHOT @ G:\java_test\hi\pom.xml.
+2018-06-11 09:44:49,411 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-11 09:44:49,411 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory G:\java_test\hi\src\main\resources
+2018-06-11 09:44:49,414 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-11 09:44:49,415 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory G:\java_test\hi\src\test\resources
+2018-06-11 09:44:51,013 [Worker-63] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-source-plugin/2.4/maven-source-plugin-2.4.pom
+2018-06-11 09:44:51,327 [Worker-63] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-source-plugin/2.4/maven-source-plugin-2.4.pom
+2018-06-11 09:44:51,612 [Worker-63] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/25/maven-plugins-25.pom
+2018-06-11 09:44:51,942 [Worker-63] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/25/maven-plugins-25.pom
+2018-06-11 09:55:29,285 [Worker-63] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.imooc.hi:hi:0.0.1-SNAPSHOT @ G:\java_test\hi\pom.xml.
+2018-06-11 09:55:29,528 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-11 09:55:29,531 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory G:\java_test\hi\src\main\resources
+2018-06-11 09:55:29,543 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-11 09:55:29,543 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory G:\java_test\hi\src\test\resources
+2018-06-11 09:58:08,116 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2018-06-11 09:58:17,339 [Worker-74] INFO  o.e.m.i.launch.MavenLaunchDelegate - G:\java_test\hi
+2018-06-11 09:58:17,339 [Worker-74] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -s D:\maven\apache-maven-3.5.3-bin\apache-maven-3.5.3\conf\settings.xml clean package

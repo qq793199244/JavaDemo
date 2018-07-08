@@ -1,0 +1,11 @@
+127.0.0.1 - - [18/Jun/2018:11:26:37 +0800] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [18/Jun/2018:11:26:41 +0800] "GET /MyFirstServletDemo/ HTTP/1.1" 200 371
+0:0:0:0:0:0:0:1 - - [18/Jun/2018:11:26:48 +0800] "GET /MyFirstServletDemo/servlet/HelloServlet HTTP/1.1" 200 39
+127.0.0.1 - - [18/Jun/2018:11:32:03 +0800] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [18/Jun/2018:11:32:06 +0800] "GET /MyFirstServletDemo/index.jsp HTTP/1.1" 200 495
+0:0:0:0:0:0:0:1 - - [18/Jun/2018:11:32:16 +0800] "GET /MyFirstServletDemo/servlet/HelloServlet HTTP/1.1" 200 39
+0:0:0:0:0:0:0:1 - - [18/Jun/2018:11:32:20 +0800] "POST /MyFirstServletDemo/servlet/HelloServlet HTTP/1.1" 200 39
+127.0.0.1 - - [18/Jun/2018:11:46:18 +0800] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [18/Jun/2018:11:46:18 +0800] "GET /ServletDemoByEclipse/WEB-INF/web.xml HTTP/1.1" 404 949
+0:0:0:0:0:0:0:1 - - [18/Jun/2018:11:46:35 +0800] "GET /ServletDemoByEclipse/ HTTP/1.1" 200 495
+0:0:0:0:0:0:0:1 - - [18/Jun/2018:11:46:37 +0800] "GET /ServletDemoByEclipse/servlet/HelloServlet HTTP/1.1" 404 1033

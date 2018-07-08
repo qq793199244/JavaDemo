@@ -1,0 +1,53 @@
+package com.imooc.test;
+
+public class TryCatchTest {
+
+	public static void main(String[] args) {
+		TryCatchTest t = new TryCatchTest();
+		int result = t.test();
+		System.out.println("test()方法执行完毕，返回值为"+result);
+		
+		int result2 =t.test2();
+		System.out.println("test2()方法执行完毕!");
+
+	}
+	
+	public int test() {
+		int divider=10;
+		int result = 100;
+		
+		try {
+			while(divider>-1){
+				divider--;
+				result = result+100/divider;
+			}
+			return result;
+		} catch (Exception e) {
+			e.printStackTrace();
+			System.out.println("抛出异常了！");
+			return -1;
+		}
+	}
+	
+	public int test2() {
+		int divider=10;
+		int result = 100;
+		
+		try {
+			while(divider>-1){
+				divider--;
+				result = result+100/divider;
+			}
+			return result;
+		} catch (Exception e) {
+			e.printStackTrace();
+			System.out.println("抛出异常了！");
+			return result=999;
+		}finally{
+			System.out.println("这是finally，哈哈");
+			System.out.println("我是result, 我的值是"+result);
+		}
+		
+	}
+
+}

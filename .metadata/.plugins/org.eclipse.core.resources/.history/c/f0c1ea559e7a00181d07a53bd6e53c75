@@ -1,0 +1,16 @@
+package com.imooc;
+
+public class Initial {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Dog dog = new Dog();
+		dog.age = 1;
+		dog.name = "小明";
+		dog.eat();
+		
+		Animal animal = new Animal();
+		System.out.println(animal.age);
+	}
+
+}

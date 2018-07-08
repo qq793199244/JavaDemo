@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servers>
+  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/Tomcat v7.0 Server at localhost-config" deployDir="wtpwebapps" hostname="localhost" id="Tomcat v7.0 Server at localhost" name="Tomcat v7.0 Server at localhost" runtime-id="Apache Tomcat v7.0" server-type="org.eclipse.jst.server.tomcat.70" server-type-id="org.eclipse.jst.server.tomcat.70" start-timeout="45" stop-timeout="15" testEnvironment="true" timestamp="11">
+    <list key="modules" value0="HelloWorld::org.eclipse.jst.jee.server:HelloWorld::jst.web::3.0" value1="struts-timerInterceptor::org.eclipse.jst.jee.server:struts-timerInterceptor::jst.web::3.0" value2="authInterceptor::org.eclipse.jst.jee.server:authInterceptor::jst.web::3.0" value3="MyFirstServletDemo::org.eclipse.jst.jee.server:MyFirstServletDemo::jst.web::3.0" value4="ServletLife::org.eclipse.jst.jee.server:ServletLife::jst.web::3.0" value5="ServletLoginDemo::org.eclipse.jst.jee.server:ServletLoginDemo::jst.web::3.0" value6="ServletInitPar::org.eclipse.jst.jee.server:ServletInitPar::jst.web::3.0"/>
+  </server>
+</servers>

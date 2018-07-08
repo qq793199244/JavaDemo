@@ -1,0 +1,3 @@
+127.0.0.1 - - [24/May/2018:17:59:14 +0800] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [24/May/2018:17:59:17 +0800] "GET /struts-timerInterceptor/ HTTP/1.1" 200 347
+0:0:0:0:0:0:0:1 - - [24/May/2018:17:59:21 +0800] "GET /struts-timerInterceptor/timer HTTP/1.1" 200 281
